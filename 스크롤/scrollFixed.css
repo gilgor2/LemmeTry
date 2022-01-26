@@ -1,0 +1,127 @@
+ *{
+    margin:0;
+}
+/*.scroll{
+    height:900vh;
+}
+.box{
+    opacity:0;
+    transform:translate(300px);
+    position:absolute;
+    right:50px;
+    top:200px;
+    transition: all 1s; 
+    background-color: white;
+    width:400px;
+    height:200px;
+    color:white;
+    text-align: center;
+    line-height: 200px;
+    
+}
+p{
+    opacity:0;
+    transform:translate(20px, 50px);
+    font-size:50px;
+    position:absolute;
+    bottom:150px;
+    left:200px;
+    transition: 1.5s;
+    color:black;
+}
+
+
+
+.uiBox{
+    
+    width:100%;
+    height:100vh;
+    background-color: transparent;
+    
+}
+.go{
+    transform:none;
+    opacity:1;
+}
+
+.back{
+    width:100%;
+    height:100vh;
+    perspective:1200px;
+}
+.gif{
+    background-image: url("background.jpg");
+    background-size:100%;
+    transition: 1.5s;
+    width:100%;
+    height:100vh;;
+    
+    
+}
+.ani1{
+    
+    transform:  translate(-100px,-100px) rotate3d(3, -3, -1,2deg) scale(130%);
+
+    transform-origin: 50% 50% 50px;
+}
+.ani2{
+    transform: translate3d(10px,-10px, 10px);
+} */
+/* ////////////////////////////////////////////// */
+.scroll{
+    height:900vh;
+}
+.back{
+    width:100%;
+    height:100vh;
+    perspective:1200px;
+    overflow: hidden;
+}
+.gif{
+    background-image: url("background.jpg");
+    background-size:100%;
+    transition: 1.8s;
+    width:100%;
+    height:100vh;;
+    
+}
+.plants{
+    perspective: 12px;;
+    text-align: center;
+   padding-top: 140px;
+    font-size: 100px;
+    font-weight: bold;
+    opacity: .6;
+    transform: rotate3d(1,0,0,35deg);
+
+}
+.bg1{
+ transform:none;
+}
+.bg2{
+    transform: scale(250%) translate(130px,-100px);
+}
+.bg3{
+    transform: scale(300%) translate(20px,-105px);
+
+}
+.bg4{
+    transform-origin: 50% 50% 30px;
+    transform: scale(250%) translate(-150px, -100px)rotate3d( 0,1,0,-40deg);
+}
+
+p{
+    opacity:0;
+    transform:translate(2px, 30px);
+    font-size:45px;
+    position:absolute;
+    bottom:120px;
+    left:300px;
+    transition: .5s;
+    color:black;
+}
+
+.on{
+    opacity: .7;
+    transform: none;
+}
